@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.flavor-text {
+  position: relative;
+  z-index: 10; /* Um valor alto para garantir que o texto fique por cima */
+}
